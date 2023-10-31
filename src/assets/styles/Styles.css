@@ -1,0 +1,38 @@
+/*para el uso de tailwind es necesario hacerlo con otro complemento de postprocesado para los estilos que se llama postcss
+---------------installacion : npm i -D tailwindcss postcss autoprefix---------------------------
+el autoprefix ayuda a la escritura de las clases 
+una vez instalado estas dependencias de Desarrollo es necesario mostrar los ficheros de configuracion para esto se ejecuta el comando
+-------------fichero de configuracion : npx tailwindcss init -p-------------
+este comando de instalacion hace que se configure el tailwind con el postcss 
+*/
+
+.nuevo{
+    background: url(../images/sky.jpeg);
+    background-size: 100% 100%;
+}
+.fondo{
+    background-size: 100% 100%;
+    background: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+}
+
+.Warp{
+    overflow-wrap: break-word;
+}
+.perb{
+    border: solid 1px;    
+    border-color: rgba(211, 214, 212, 0.759);
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background: url(../images/netero.jpeg);
+    background-size: cover;
+    background-position: -120px;
+    background-repeat: no-repeat; 
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
