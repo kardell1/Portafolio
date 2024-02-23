@@ -5,6 +5,48 @@ una vez instalado estas dependencias de Desarrollo es necesario mostrar los fich
 -------------fichero de configuracion : npx tailwindcss init -p-------------
 este comando de instalacion hace que se configure el tailwind con el postcss 
 */
+/*NOTA----------------------------------------------------------
+    PARA LA CREACION DE ANIMACION 3D, ESA ANIMACION DONDE PODEMOS PONER UN ELEMENTO , QUIZA PRODUCTO SE LLAMA .- THREE.JS 
+    -------------------------------------------------------------
+    PARA LA CREACION DE ESE EFECTO CUANDO LA PAGINA INICIA RECIEN Y LOS ELEMENTOS TIENEN UNA ANIMACION INICIAL SE USA LA LIBRERIA ANIMEJS
+*/
+.subRayado{
+    position: relative; /*elemento necestio para
+    para pocisionar el elemento creado que sea el border*/
+    font-size: 1rem;
+    cursor: pointer; /*para cambiar el cursor cuando se pase por encima*/
+    overflow: hidden; /*ocultar el elemento cuando sobresalga*/
+}
+.subRayado::before{
+    content: "";/*este es el elemento creado
+    sin este elemento no se vera el subrayado*/
+    position: absolute;/*ponemos el elemento bajo el contenido padre*/
+    bottom: 0;
+    left: 0;
+    height: 3px;/*esto es el tamaño que tendra el div del subrayado , es como el grosor del subrayado*/
+    width: 100%; /*esto es necesario para que se vea, es para decir el largo del subrayado*/
+    border-radius: 50px;
+    background: linear-gradient(to right , #0d1f60 0%, rgb(28, 206, 79)100%);/*para que la linea se difumine de izquierda a derecha , con dos variaciones de color */
+    /* background-color: rgb(28, 206, 79); */
+    transform: scale(0);/*esto es necesario porque al inicio el elemento no tiene que verse
+    por eso comienza en 0 , */
+    transform-origin: left;/*esto es para decir de donde comienza el efecto ,
+    en este caso comienza de izquierda a derecha*/
+    transition: transform 0.3s ease-in-out;/*tiene una transformacion de 0.3segundos , y es del inicio*/
+}
+.subRayado:hover::before {
+    transform: scaleX(1); /* Hacer visible el subrayado al pasar el mouse */
+    transform-origin: left;/*dcuando se pasa por encima el origen de la linea parte de la izquierda por el transform origin*/
+}
+.bgFondo{
+    background-color: #0f172a;
+}
+
+
+
+
+
+
 
 .nuevo{
     background: url(../images/sky.jpeg);
@@ -16,9 +58,16 @@ este comando de instalacion hace que se configure el tailwind con el postcss
     background-repeat: no-repeat;
 }
 
-.Warp{
-    overflow-wrap: break-word;
+.pru{
+    border: solid;
+    border-color: red;
+    border-width: 2px;
 }
+.fotoPerfil{
+    border-radius: 50%;
+    
+}
+
 .perb{
     border: solid 1px;    
     border-color: rgba(211, 214, 212, 0.759);
@@ -33,6 +82,5 @@ este comando de instalacion hace que se configure el tailwind con el postcss
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 

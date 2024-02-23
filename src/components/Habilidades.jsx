@@ -14,7 +14,7 @@ function CompHabilidades() {
   return (
     <>
       <section className="flex flex-col text-slate-100 py-10 gap-5  ">
-        <div className="flex justify-center font-semibold text-5xl pt-5 text-emerald-500 ">
+        <div className="flex justify-center font-semibold text-5xl pt-5 pb-5 text-emerald-500 ">
           <p>Skills</p>
         </div>
         <div className="h-max grid grid-cols-7 gap-2 max-sm:grid-cols-4 text-orange-500">
