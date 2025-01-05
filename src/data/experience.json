@@ -1,0 +1,38 @@
+[
+    {
+      "date": "May 2023",
+      "title": "Desarrollador FullStack",
+      "enterprice": "Machine Learning",
+      "description": "Los requisitos para llevar a cado esta práctica es desarrollar un sistema prototipo que sea capaz de recopilar datos en tiempo real de diversos tipos de sensores. Estos datos deberán ser almacenados de manera eficiente en una base de datos. Además, se debe diseñar una topología que ilustre la comunicación entre las distintas entidades involucradas en el sistema, asegurando una integración y flujo de información adecuado.",
+      "tecnologies": ["Mysql" , "Css" , "HTML" , "JavaScript" , "Mosquitto" ]
+    },
+    {
+      "date": "Sept 2023",
+      "title": "Desarrollador FullStack",
+      "enterprice": "Machine Learning",
+      "description": "Los requisitos de este proyecto son el de desarrollar un sistema prototipo capaz de recopilar datos en tiempo real de un invernadero dedicado exclusivamente a la cría de plantas. El sistema obtiene la información a través de un módulo electrónico que se comunica de manera eficiente con el servidor mediante una red WiFi, garantizando una transmisión continua y precisa de los datos necesarios para el monitoreo y control del ambiente del invernadero.",
+      "tecnologies": ["React.js", "Express.js" , "Tailwindcss" , "Mosquitto" , "PostGrace" ]
+    },
+    {
+      "date": "Oct 2023",
+      "title": "Ingeniero de Software",
+      "enterprice": "Freelancer",
+      "description": "El objetivo de este proyecto es desarrollar un sistema prototipo diseñado para gestionar y monitorear un invernadero dedicado a la cría de insectos y plantas, permitiendo el control en tiempo real de diversos parámetros esenciales para el buen desarrollo de los cultivos y criaderos. El sistema estará conectado a una plataforma web que facilitará la recepción de pedidos de los clientes, lo cual generará automáticamente alertas en el panel de administración. Esta funcionalidad permitirá que los administradores gestionen y procesen las ventas de los productos de manera eficiente, mejorando la experiencia tanto para el cliente como para el negocio.",
+      "tecnologies": ["Vite+React.js", "Express.js" , "Tailwindcss" , "Mosquitto" , "Mysql" , "Sequelize" , "Typescript"]
+    },
+    {
+      "date": "Jun  2024",
+      "title": "Ingeniero de Software",
+      "enterprice": "Freelancer",
+      "description": "El objetivo de este proyecto fue analizar y procesar los datos recopilados de sensores climáticos, se obtuvo de páginas nacionales con información de sensores para predecir las estaciones más favorables para la cosecha en el altiplano. Consistía en una API y una página web que mostraban el análisis de los datos e incluían una sección para generar predicciones, optimizando la planificación agrícola en la región.",
+      "tecnologies": ["Vite+React.js", "Fastapi" , "Tailwindcss" , "Typescript"]
+    },
+    {
+      "date": "Oct 2024",
+      "title": "Ingeniero de Software",
+      "enterprice": "ByDragon",
+      "description": "El proyecto consistia en desarrollar un sistema web que permitiera llevar un control eficaz de un negocio enfocado en la venta de materia de calazados",
+      "tecnologies": ["Vite+React.js", "Laravel" , "Tailwindcss" , "Typescript"]
+    }
+  ]
+  
