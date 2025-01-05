@@ -4,7 +4,7 @@ const Aside = () => {
   return (
     <section className="px-16 py-10 relative max-md:p-14  ">
       <div className="flex flex-col gap-4">
-        <p className="text-[75px] max-md:text-[50px] font-bold tracking-wider ">
+        <p className="text-[75px] max-md:text-[50px] max-[400px]:[35px] font-bold tracking-wider  ">
           Bienvenido<span className="text-emerald-500">:]</span>
         </p>
         <p className=" text-[25px] font-bold  tracking-wide">
