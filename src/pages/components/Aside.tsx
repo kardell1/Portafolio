@@ -2,11 +2,12 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 const Aside = () => {
   return (
-    <section className="px-16 py-10 relative max-md:p-14  ">
+    <section className="px-16 py-10 relative max-md:p-14 max-sm:p-10 ">
       <div className="flex flex-col gap-4">
-        <p className="text-[75px] max-md:text-[50px] max-[400px]:[35px] font-bold tracking-wider  ">
-          Bienvenido<span className="text-emerald-500">:]</span>
-        </p>
+        <div className="flex text-[75px] max-md:text-[45px] font-bold tracking-wider max-md:gap-5">
+          <p className="max-md:before:content-['Que_tal?'] sm:before:content-['Bienvenido'] " ></p>
+          <span className="text-emerald-500 max-md:rotate-90">:]</span>
+        </div>
         <p className=" text-[25px] font-bold  tracking-wide">
           Mi nombre es <span className="text-emerald-500">David Silva</span>.
         </p>

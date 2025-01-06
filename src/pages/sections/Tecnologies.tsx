@@ -9,11 +9,14 @@ import {
   FaReact,
 } from "react-icons/fa";
 import {
+  SiArduino,
   SiAstro,
+  SiCplusplus,
   SiEclipsemosquitto,
   SiExpress,
   SiMysql,
   SiPostgresql,
+  SiPython,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -79,6 +82,18 @@ const Tecnologies = () => {
     {
       title: "TypeScript",
       icon: <SiTypescript className="text-blue-500 text-5xl" />,
+    },
+    {
+      title: "Python",
+      icon: <SiPython className="text-green-500 text-5xl" />,
+    },
+    {
+      title: "Arduino",
+      icon: <SiArduino className="text-sky-500 text-5xl" />,
+    },
+    {
+      title: "C++",
+      icon: <SiCplusplus className="text-purple-500 text-5xl" />,
     },
   ];
   return (
