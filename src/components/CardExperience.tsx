@@ -16,7 +16,7 @@ const CardExperience = ({
 }: CardProp) => {
   return (
     <div className="grid grid-cols-3 py-3 group hover:bg-slate-700/10 rounded-lg transition-[background] max-md:grid-cols-1 max-md:px-3 ">
-      <div className="px-5 text-base text-wrap min-w-max col-span-1  max-md:px-0 max-md:py-2">
+      <div className="px-5 text-base text-wrap col-span-1  max-md:px-0 max-md:py-2">
         {" "}
         {date}{" "}
       </div>
