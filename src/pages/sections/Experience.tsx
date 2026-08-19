@@ -2,7 +2,7 @@ import CardExperience from "../../components/CardExperience";
 import data from "../../data/experience.json";
 const Experience = () => {
   return (
-    <div id="experience" >
+    <div id="experience">
       <p className="text-slate-200 font-medium py-4">
         Experiencia relevante :{" "}
       </p>

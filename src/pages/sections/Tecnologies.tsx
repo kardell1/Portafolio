@@ -97,11 +97,14 @@ const Tecnologies = () => {
     },
   ];
   return (
-    <div id="technologies" >
+    <div id="technologies">
       <p className="text-slate-200 font-medium py-4">Tecnologias :</p>
       <div className="grid grid-cols-4 gap-4 max-md:grid-cols-3">
         {tecnologies.map((tecnologi, index) => (
-          <div key={index} className="flex flex-col items-center justify-center">
+          <div
+            key={index}
+            className="flex flex-col items-center justify-center"
+          >
             <span>{tecnologi.icon}</span>
             <p> {tecnologi.title} </p>
           </div>

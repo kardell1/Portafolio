@@ -1,24 +1,38 @@
 const AboutMe = () => {
   return (
     <div id="aboutMe" className="">
-      <p  >
-        En <span className="text-slate-200">2023</span>, decidí tomar un enfoque
-        más serio hacia la programación, lo que me permitió avanzar
-        significativamente en mi desarrollo como programador. <br /> Durante
-        este período, he tenido la oportunidad de trabajar en proyectos
-        relacionados con el{" "}
-        <span className="text-slate-200">Internet de las Cosas (IoT)</span> y
-        crear páginas de control para pequeños negocios. Esta experiencia me ha
-        proporcionado habilidades y conocimientos valiosos en el campo de la
-        programación y me ha permitido aplicar mis competencias en situaciones
-        del mundo real. <br /> Mi objetivo principal actual es evolucionar del
-        desarrollo de software a un nivel más profesional, enfocándome
-        en aprender y aplicar estándares de calidad. Aspiro a desarrollar
-        software siguiendo las mejores prácticas y estándares de la industria
-        para garantizar la calidad y efectividad de los programas. <br /> Esta
-        transición me permitirá no solo mejorar mis habilidades como
-        desarrollador, sino también ofrecer soluciones de software más
-        confiables y robustas.
+      <p>
+        Desde <span className="text-slate-200">2023</span>, he construido mi
+        experiencia trabajando en distintas áreas del desarrollo de software,
+        pasando por proyectos relacionados con el{" "}
+        <span className="text-slate-200">Internet de las Cosas (IoT)</span>,
+        soluciones para pequeños negocios y sistemas empresariales y de gestión.{" "}
+        <br />
+        <br />
+        Actualmente, como{" "}
+        <span className="text-slate-200">ingeniero de software</span>, mi
+        enfoque va más allá de desarrollar aplicaciones. Busco comprender los
+        problemas que existen detrás de cada negocio y convertirlos en
+        soluciones tecnológicas que realmente aporten valor. <br />
+        <br />
+        Mi objetivo es desarrollar{" "}
+        <span className="text-slate-200">
+          soluciones de gestión a medida
+        </span>{" "}
+        para empresas que necesitan modernizar, mejorar o reemplazar procesos y
+        sistemas tecnológicos que ya no responden adecuadamente a sus
+        necesidades. Para ello, combino el análisis del problema con el diseño y
+        desarrollo de soluciones adaptadas a cada contexto. <br />
+        <br />
+        Esta visión también representa el inicio de un proyecto a largo plazo:
+        construir una{" "}
+        <span className="text-slate-200">empresa tecnológica</span> capaz de
+        ofrecer soluciones accesibles, prácticas y profesionales para negocios
+        que necesitan evolucionar tecnológicamente. <br />
+        <br />
+        Más que crear software por crear software, quiero construir herramientas
+        que ayuden a las empresas a{" "}
+        <span className="text-slate-200">trabajar mejor</span>.
       </p>
     </div>
   );
